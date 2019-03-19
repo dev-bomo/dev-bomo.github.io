@@ -176,8 +176,18 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+    height: 60px;
+    width: 260px;
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/label_white.png');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -236,9 +246,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgba(34,34,34, 0.6);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -269,7 +279,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg22.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg222.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
