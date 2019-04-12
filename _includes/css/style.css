@@ -8,7 +8,7 @@ body {
   font-size: 20px;
   line-height: 1.8;
   font-weight: 300;
-  color: gray;
+  color: #00523c;
 }
 
 p, ul, ol {
@@ -27,12 +27,12 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #000;
+  color: #00523c;
   font-family: "Playfair Display", serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
-  color: #000;
+  color: #00523c;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
@@ -121,7 +121,7 @@ textarea.form-control {
 }
 
 .site-menu ul > li a {
-  color: #000;
+  color: #00523c;
   font-size: 20px;
 }
 
@@ -184,7 +184,7 @@ textarea.form-control {
 }
 
 .site-header .social li a {
-  color: #000;
+  color: #00523c;
   padding: 0 10px;
 }
 
@@ -221,7 +221,7 @@ textarea.form-control {
 }
 
 .site-header.scrolled .social li a {
-  color: #000;
+  color: #00523c;
 }
 
 .site-header.scrolled .site-logo {
@@ -273,7 +273,7 @@ textarea.form-control {
 }
 
 .site-nav-toggle i, .site-nav-toggle i:before, .site-nav-toggle i:after {
-  background: #000 !important;
+  background: #00523c !important;
 }
 
 .btn {
@@ -302,7 +302,7 @@ textarea.form-control {
 
 .btn.btn-outline-white:hover {
   background: #fff;
-  color: #000;
+  color: #00523c;
   border: 2px solid transparent;
 }
 
@@ -325,7 +325,7 @@ textarea.form-control {
 
 .half .text {
   padding: 7%;
-  background: #000;
+  background: #00523c;
 }
 
 .half .text h2 {
@@ -443,7 +443,7 @@ textarea.form-control {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000;
+  background: #00523c;
   opacity: .05;
 }
 
@@ -545,7 +545,7 @@ textarea.form-control {
 
 .ftco-38 .ftco-38-header .ftco-38-heading {
   font-size: 30px;
-  color: #000;
+  color: #00523c;
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
@@ -584,7 +584,7 @@ textarea.form-control {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #000;
+  color: #00523c;
   font-weight: 900;
 }
 
@@ -597,11 +597,11 @@ textarea.form-control {
 }
 
 .btn-link:hover, .btn-link:active, .btn-link:focus {
-  color: #000;
+  color: #00523c;
 }
 
 .btn-link:hover span, .btn-link:active span, .btn-link:focus span {
-  color: #000;
+  color: #00523c;
   margin-left: 10px;
 }
 
@@ -697,7 +697,7 @@ textarea.form-control {
 }
 
 .menu-food-item h3 a {
-  color: #000;
+  color: #00523c;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -717,7 +717,7 @@ textarea.form-control {
 
 .footer-contact-widget .contact-phone {
   font-size: 30px;
-  color: #000;
+  color: #00523c;
 }
 
 .lead {
@@ -726,7 +726,7 @@ textarea.form-control {
 
 .testimonial p {
   font-size: 20px;
-  color: #000;
+  color: #00523c;
 }
 
 .testimonial .author {
@@ -794,7 +794,7 @@ textarea.form-control {
 }
 
 .feature-icon .icon > span {
-  color: #000;
+  color: #00523c;
   font-size: 80px;
   position: absolute;
   top: 50%;
@@ -1264,7 +1264,7 @@ textarea.form-control {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000;
+  background: #00523c;
   opacity: .2;
 }
 
@@ -1384,7 +1384,7 @@ textarea.form-control {
 
 .menus .item .text {
   padding: 40px;
-  background: #000;
+  background: #00523c;
 }
 
 .menus .item .text h3 {
@@ -1470,7 +1470,7 @@ textarea.form-control {
 }
 
 .accordion .btn-block[aria-expanded="false"] {
-  color: #000;
+  color: #00523c;
 }
 
 .accordion .btn-block[aria-expanded="false"] .icon:before {
@@ -1503,13 +1503,13 @@ textarea.form-control {
   margin-bottom: 7px;
   margin-right: 4px;
   border-radius: 4px;
-  color: #000;
+  color: #00523c;
   border: 1px solid #ccc;
   font-size: 11px;
 }
 
 .tagcloud a:hover {
-  border: 1px solid #000;
+  border: 1px solid #00523c;
 }
 
 .comment-form-wrap {
@@ -1566,7 +1566,7 @@ textarea.form-control {
 .comment-list li .comment-body .reply {
   padding: 5px 10px;
   background: #e6e6e6;
-  color: #000;
+  color: #00523c;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: .1em;
@@ -1645,7 +1645,7 @@ textarea.form-control {
 }
 
 .categories li.active a, .sidelink li.active a {
-  color: #000;
+  color: #00523c;
   font-style: italic;
 }
 
@@ -1655,7 +1655,7 @@ textarea.form-control {
 
 .ftco-footer-newsletter .form-group .form-control {
   background: #fff;
-  color: #000;
+  color: #00523c;
   border: none !important;
   border-radius: 0px;
   padding-right: 70px;
@@ -1677,10 +1677,11 @@ textarea.form-control {
 }
 
 .ftco-footer {
-  background: #121212;
+  background: #00523c;
   padding: 7em 0;
   font-size: 15px;
   font-weight: 400;
+  color: #fff;  
 }
 
 .ftco-footer .footer-widget h3 {
