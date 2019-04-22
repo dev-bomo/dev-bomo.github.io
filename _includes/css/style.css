@@ -1807,3 +1807,7 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.envelope {
+  cursor: pointer;
+}
