@@ -1,48 +1,69 @@
-$(document).ready(function() {
-  // MagnificPopup
-	var magnifPopup = function() {
-		$('.image-popup').magnificPopup({
-			type: 'image',
-			removalDelay: 300,
-			mainClass: 'mfp-with-zoom',
-			gallery:{
-				enabled:true
+$(document).ready(function () {
+
+	var fancyBox = function () {
+
+		var items = [
+			{
+				src: '../img/arbour/1.png',
+				opts: {
+					caption: 'The Arbour is designed to fit in a well lit corner of your house or balcony. It is 120cm tall with a footprint of 40cm x 40cm. All you need is to plug it into a power outlet'
+				}
 			},
-			zoom: {
-				enabled: true, // By default it's false, so don't forget to enable it
-
-				duration: 300, // duration of the effect, in milliseconds
-				easing: 'ease-in-out', // CSS transition easing function
-
-				// The "opener" function should return the element from which popup will be zoomed in
-				// and to which popup will be scaled down
-				// By defailt it looks for an image tag:
-				opener: function(openerElement) {
-				// openerElement is the element on which popup was initialized, in this case its <a> tag
-				// you don't need to add "opener" option if this code matches your needs, it's defailt one.
-				return openerElement.is('img') ? openerElement : openerElement.find('img');
+			{
+				src: '../img/arbour/2.png',
+				opts: {
+					caption: "With a 10L reservoir and a water recirculating mechanism you can be sure that you won't need to interact with the tower for at leasst 2 weeks."
+				}
+			},
+			{
+				src: '../img/arbour/3.png',
+				opts: {
+					caption: "The standard pot holder diameter is 12cm and there's a distance of 15cm to the water nozzle. This allows for standard sprout pots. But the pot holders can be replaced with larger ones if needed. Shoot us an email if you know your needs."
+				}
+			},
+			{
+				src: '../img/arbour/4.png',
+				opts: {
+					caption: "The Wemos D1 mini is the most used Wifi chip based on the Arduino platform. Connect to the server through your home wifi network in just a few seconds and get a notification on the Meridia app any time there's a connection problem. Which will never happen. The chip is very stable."
+				}
+			},
+			{
+				src: '../img/arbour/5.png',
+				opts: {
+					caption: "2 12V pumps with a 1L/min pumping load. This means they will each be working for less than 10s a day to ensure proper watering to even the most thirsty of plants. 2 pumps also means that each of the 2 levels of the tower can be watered independently so they support different types of plants."
 				}
 			}
+		];
+
+		$('.open-gallery-1').click(function () {
+			$.fancybox.open(items, {
+				loop: false,
+				arrows: false,
+				smallBtn: false,
+				toolbar: false
+			}, 0);
+		});
+
+		$('.open-gallery-2').click(function () {
+			$.fancybox.open(items, {
+				loop: false,
+				arrows: false,
+				smallBtn: false,
+				toolbar: false
+			}, 3);
+		});
+
+		$('.open-gallery-3').click(function () {
+			$.fancybox.open(items, {
+				loop: false,
+				arrows: false,
+				smallBtn: false,
+				toolbar: false
+			}, 0);
 		});
 	};
 
-	var magnifVideo = function() {
-		$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-
-        fixedContentPos: false
-    });
-	};
-
-	
-
-
 	// Call the functions 
-	magnifPopup();
-	magnifVideo();
+	fancyBox();
 
 });
