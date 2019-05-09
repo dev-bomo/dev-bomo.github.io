@@ -32,6 +32,18 @@ $(document).ready(function () {
 				opts: {
 					caption: "2 12V pumps with a 1L/min pumping load. This means they will each be working for less than 10s a day to ensure proper watering to even the most thirsty of plants. 2 pumps also means that each of the 2 levels of the tower can be watered independently so they support different types of plants."
 				}
+			},
+			{
+				src: '../img/arbour/6.jpg',
+				opts: {
+					caption: "Plug it in, fill the tank, install the app. That's what it takes to control watering from your phone"
+				}
+			},
+			{
+				src: '../img/arbour/7.jpg',
+				opts: {
+					caption: "You can set a schedule for each of the 2 levels, or you can water manually. The app also gives you tips on how to change your watering habits based on seasons and weather."
+				}
 			}
 		];
 
@@ -59,7 +71,7 @@ $(document).ready(function () {
 				arrows: false,
 				smallBtn: false,
 				toolbar: false
-			}, 0);
+			}, 5);
 		});
 	};
 
