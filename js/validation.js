@@ -13,6 +13,7 @@
         $result.text("");
 
         if (validateEmail(email)) {
+            return true;
         } else {
             $result.css("border-color", "#ff7a5c");
             // $result.css("color", "#ff7a5c");
