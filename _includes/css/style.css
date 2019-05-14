@@ -1883,3 +1883,16 @@ color: #F56040
   height: 100%;
   width: 100%;
 }
+
+.lang_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 901;
+  border: 1px solid white;
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}

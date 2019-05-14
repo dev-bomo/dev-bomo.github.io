@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+	var afterLoad = function (instance, current) {
+		var caption = document.querySelector('.fancybox-caption__body');
+		var index = instance.currIndex;
+		caption && (caption.innerHTML = i18next.t('caption_' + index));
+	}
+
 	var fancyBox = function () {
 
 		var items = [
@@ -52,7 +58,8 @@ $(document).ready(function () {
 				loop: false,
 				arrows: false,
 				smallBtn: false,
-				toolbar: false
+				toolbar: false,
+				afterLoad: afterLoad
 			}, 0);
 		});
 
@@ -61,7 +68,8 @@ $(document).ready(function () {
 				loop: false,
 				arrows: false,
 				smallBtn: false,
-				toolbar: false
+				toolbar: false,
+				afterLoad: afterLoad
 			}, 3);
 		});
 
@@ -70,7 +78,8 @@ $(document).ready(function () {
 				loop: false,
 				arrows: false,
 				smallBtn: false,
-				toolbar: false
+				toolbar: false,
+				afterLoad: afterLoad
 			}, 5);
 		});
 	};
