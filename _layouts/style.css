@@ -1,9 +1,3 @@
 {% include css/bootstrap.css %}
-{% include css/animate.css %}
-{% include css/aos.css %}
-{% include css/bootstrap-datepicker.css %}
-{% include css/jquery.timepicker.css %}
-{% include css/magnific-popup.css %}
-{% include css/owl.carousel.min.css %}
 {% include css/style.css %}
 {{ content }}
