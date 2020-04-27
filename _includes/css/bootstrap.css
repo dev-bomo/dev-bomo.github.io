@@ -12465,7 +12465,7 @@ picture[class^="color-filter-"], picture[class*=" color-filter-"]{
 }
 
 .color-filter-dark-5:before {
-  background-color: rgba(132, 194, 81, 0.2);
+  background-color: rgba(132, 194, 81, 0);
 }
 
 .color-filter-light-6:before {
