@@ -184,8 +184,8 @@ function SF_scripts() {
             submitForm(form);
         }
         function submitForm(form) {
-            var term = form.serialize(),
-                url = form.attr("action"),
+            var term = form[0][0].value,
+                url = "https://meridiatest.azurewebsites.net/api/marketing/newsletter",
                 required_fields_filled = true;
 
             form.find("input, textarea, select").each(function () {
@@ -195,7 +195,7 @@ function SF_scripts() {
             });
 
             if (required_fields_filled) {
-                var posting = $.post(url, term);
+                var posting = $.ajax({ url: url, type: 'POST', data: `{"email": "${term}", "isSubscribed": true }`, headers: { "Content-Type": "application/json", "Accept": "application/json" } });
                 posting
                     .done(function (data) {
                         if (data == "ok") {
@@ -206,7 +206,8 @@ function SF_scripts() {
                         }
                         hidegRecaptchaPopup();
                     })
-                    .fail(function () {
+                    .fail(function (data) {
+                        $(".alert-form-error .message").html(data.responseJSON);
                         $(".alert-form-error").fadeIn(200).delay(10000).fadeOut(200);
                         hidegRecaptchaPopup();
                     });
