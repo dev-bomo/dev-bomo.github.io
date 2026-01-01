@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Smart home plant care systems.
   PlantHydra.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://planthydra.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dev-bomo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
